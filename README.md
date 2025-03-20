@@ -10,7 +10,6 @@ This project sets up a Python-based Wi-Fi scanner that logs open networks around
 ## Table of Contents
 - [Installation](#installation)
 - [Creating the Control File](#creating-the-control-file)
-- [Controlling the Service](#controlling-the-service)
 - [Checking Status and Logs](#checking-status-and-logs)
 
 ## Installation
