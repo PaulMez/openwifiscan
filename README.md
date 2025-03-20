@@ -19,3 +19,35 @@ Make the install script executable:
 
 ```bash
 chmod +x install_wifi_scanner.sh
+```
+
+Run the install script:
+
+```bash
+./install_wifi_scanner.sh
+```
+
+## Creating the Control File
+
+To Remove
+```bash
+rm ~/scan.txt
+```
+
+To Create
+```bash
+echo 'scan' > ~/scan.txt
+```
+
+## Checking Status and Logs
+
+You can check the status of the service by running:
+```bash
+systemctl status wifi_scanner.service
+```
+
+You can also look at the output and error logs in the specified files:
+```bash
+cat ~/wifi_scanner/log_output.txt
+cat ~/wifi_scanner/log_error.txt
+```
